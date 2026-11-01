@@ -1,7 +1,7 @@
 # Project guidance
 
-This repository is for material useful with Primavera. The `Davidson promotes` note asks to use Davidson Markdown as a reference and keep it automatically updated.
+This repository is for material useful with Primavera. It includes `vscode-markdownlint/` as a Git submodule tracking `https://github.com/DavidAnson/vscode-markdownlint.git`.
 
-No Davidson Markdown source, URL, or synchronization configuration is currently present. Do not invent a source or claim updates are automatic. Before implementing synchronization, identify the authoritative Davidson source and the expected local destination and update mechanism.
+Dependabot checks the submodule weekly and opens a pull request when upstream changes are available. Updates are not merged automatically; review and merge the pull request to advance the pinned revision.
 
 Keep reference material faithful to its source, preserve attribution, and update the README when adding or changing the repository's main materials.
