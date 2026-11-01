@@ -1,0 +1,3 @@
+[submodule "vscode-markdownlint"]
+	path = vscode-markdownlint
+	url = https://github.com/DavidAnson/vscode-markdownlint.git
